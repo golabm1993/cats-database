@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="koty-application" />
-        <module name="koty-domain" />
-        <module name="koty-webapp" />
+        <module name="cats-application" />
+        <module name="cats-domain" />
+        <module name="cats-webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BazaKotow" target="1.8" />
-      <module name="koty-application" target="1.8" />
-      <module name="koty-domain" target="1.8" />
-      <module name="koty-webapp" target="1.8" />
+      <module name="cats-application" target="1.8" />
+      <module name="cats-domain" target="1.8" />
+      <module name="cats-webapp" target="1.8" />
+      <module name="CatsDatabase" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BazaKotow.iml" filepath="$PROJECT_DIR$/BazaKotow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/koty-application/koty-application.iml" filepath="$PROJECT_DIR$/koty-application/koty-application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/koty-domain/koty-domain.iml" filepath="$PROJECT_DIR$/koty-domain/koty-domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/koty-webapp/koty-webapp.iml" filepath="$PROJECT_DIR$/koty-webapp/koty-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CatsDatabase.iml" filepath="$PROJECT_DIR$/CatsDatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cats-application/cats-application.iml" filepath="$PROJECT_DIR$/cats-application/cats-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cats-domain/cats-domain.iml" filepath="$PROJECT_DIR$/cats-domain/cats-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cats-webapp/cats-webapp.iml" filepath="$PROJECT_DIR$/cats-webapp/cats-webapp.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>New cat</title>
+</head>
+<body>
+<h1>Cat data:</h1><br>
+<form action="#" th:action="@{/newCat}" th:object="${cat}" method="post">
+    <p>Name: <input type="text" th:field="*{name}" /></p>
+    <p>Data of birth: <input type="date" th:field="*{dateOfBirth}" /></p>
+    <p>Weight: <input type="text" th:field="*{weight}" /></p>
+    <p>Keeper: <input type="text" th:field="*{keeper}" /></p>
+    <button type="submit" onclick="location.href='/'">Save</button>
+</form>
+
+</body>
+</html>

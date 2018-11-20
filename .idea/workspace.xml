@@ -6,12 +6,91 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be1dfc78-26fb-4eb7-a615-64cd9ebaa5e1" name="Default Changelist" comment="" />
+    <list default="true" id="be1dfc78-26fb-4eb7-a615-64cd9ebaa5e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dao/CatDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dao/CatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dto/CatDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/Interfejs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/dao/CatDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/dao/CatRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-domain/src/main/java/pl/kobietydokodu/catsdatabase/model/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-domain/target/classes/pl/kobietydokodu/catsdatabase/model/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/cats/CatsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/service/CatsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/src/main/resources/templates/newCat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/target/classes/pl/kobietydokodu/cats/CatsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/target/classes/pl/kobietydokodu/service/CatsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cats-webapp/target/classes/templates/newCat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/koty_webapp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/koty_webapp_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BazaKotow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsDatabase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/koty-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/cats-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/Interfejs.java" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/Interfejs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dao/KotDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dao/KotRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dto/KotDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/classes/pl/kobietydokodu/bazakotow/Interfejs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/classes/pl/kobietydokodu/bazakotow/dao/KotDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/classes/pl/kobietydokodu/bazakotow/dao/KotRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/classes/pl/kobietydokodu/bazakotow/dto/KotDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/dto/CatDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/koty-application-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/koty-application-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/koty-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/cats-domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/src/main/java/pl/kobietydokodu/bazakotow/model/Kot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/target/classes/pl/kobietydokodu/bazakotow/model/Kot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/target/koty-domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/target/koty-domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/koty-webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/cats-webapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/koty/KotyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/service/KotyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/resources/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/src/main/resources/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/resources/templates/catDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/templates/catDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/resources/templates/newCat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/pl/kobietydokodu/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/pl/kobietydokodu/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/pl/kobietydokodu/koty/KotyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/pl/kobietydokodu/service/KotyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/templates/catDetails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/templates/newCat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/classes/templates/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/koty-webapp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/koty-webapp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/koty-webapp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/koty-webapp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/koty-webapp-1.0-SNAPSHOT/WEB-INF/classes/pl/kobietydokodu/koty/KotyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/koty-webapp-1.0-SNAPSHOT/WEB-INF/classes/pl/kobietydokodu/koty/KotyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koty-webapp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/koty-domain/target/" />
     <ignored path="$PROJECT_DIR$/koty-application/target/" />
     <ignored path="$PROJECT_DIR$/koty-webapp/target/" />
+    <ignored path="$PROJECT_DIR$/cats-application/target/" />
+    <ignored path="$PROJECT_DIR$/cats-domain/target/" />
+    <ignored path="$PROJECT_DIR$/cats-webapp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,106 +233,61 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
+    <session id="1747465165">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="6" />
+          <entry key="java" value="13" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Git file" value="1" />
+          <entry key="HTML" value="6" />
+          <entry key="JAVA" value="13" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="46" />
+          <entry key="html" value="184" />
+          <entry key="java" value="231" />
+          <entry key="xml" value="105" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="184" />
+          <entry key="JAVA" value="231" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="XML" value="105" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/service/KotyService.java">
+        <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/cats/CatsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+            <state relative-caret-position="940">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/resources/templates/welcome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/koty/KotyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/09df6b8e-6ac9-4f8c-80ad-6071a79c17a7/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-domain/src/main/java/pl/kobietydokodu/bazakotow/model/Kot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dao/KotRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dto/KotDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dao/KotDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/resources/templates/catDetails.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -275,6 +309,9 @@
     <findStrings>
       <find>o</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -303,7 +340,6 @@
         <option value="$PROJECT_DIR$/koty-application/pom.xml" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/dto/KotDTO.java" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/09df6b8e-6ac9-4f8c-80ad-6071a79c17a7/console.sql" />
         <option value="$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dao/KotRepository.java" />
         <option value="$PROJECT_DIR$/koty-domain/src/main/java/pl/kobietydokodu/bazakotow/model/Kot.java" />
@@ -312,6 +348,20 @@
         <option value="$PROJECT_DIR$/koty-webapp/src/main/resources/templates/welcome.html" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/koty/KotyController.java" />
         <option value="$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/service/KotyService.java" />
+        <option value="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/bazakotow/dao/CatDAO.java" />
+        <option value="$PROJECT_DIR$/cats-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/cats-webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/cats-domain/src/main/java/pl/kobietydokodu/catsdatabase/model/Cat.java" />
+        <option value="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dto/CatDTO.java" />
+        <option value="$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/service/CatsService.java" />
+        <option value="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dao/CatRepository.java" />
+        <option value="$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/cats/CatsController.java" />
+        <option value="$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dao/CatDAO.java" />
+        <option value="$PROJECT_DIR$/cats-application/pom.xml" />
+        <option value="$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html" />
+        <option value="$PROJECT_DIR$/cats-webapp/src/main/resources/templates/newCat.html" />
+        <option value="$PROJECT_DIR$/cats-webapp/src/main/resources/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -352,201 +402,74 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="610" />
+    <option name="width" value="1317" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
+              <item name="CatsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsDatabase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-application" type="462c0819:PsiDirectoryNode" />
+              <item name="CatsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="cats-webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-application" type="462c0819:PsiDirectoryNode" />
+              <item name="CatsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="cats-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bazakotow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bazakotow" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bazakotow" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="CatsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="cats-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="CatsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="cats-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="CatsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="cats-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kobietydokodu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="CatsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="cats-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kobietydokodu" type="462c0819:PsiDirectoryNode" />
-              <item name="koty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kobietydokodu" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="koty-webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BazaKotow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BazaKotow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="cats" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,10 +480,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542490795610" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542750319667" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Komenda/Command" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -595,11 +519,11 @@
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="Interfejs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.kobietydokodu.bazakotow.Interfejs" />
-      <module name="koty-application" />
+      <option name="MAIN_CLASS_NAME" value="pl.kobietydokodu.catsdatabase.Interfejs" />
+      <module name="cats-application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.kobietydokodu.bazakotow.*" />
+          <option name="PATTERN" value="pl.kobietydokodu.catsdatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -609,7 +533,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="BazaKotow" />
+      <module name="CatsDatabase" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -618,7 +542,7 @@
       </method>
     </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="koty-webapp" />
+      <module name="cats-webapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.kobietydokodu.*" />
@@ -631,7 +555,7 @@
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="koty-webapp" />
+      <module name="cats-webapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.kobietydokodu.koty.koty.*" />
@@ -759,12 +683,13 @@
       <workItem from="1542272391651" duration="76000" />
       <workItem from="1542272624161" duration="8071000" />
       <workItem from="1542355311071" duration="14809000" />
-      <workItem from="1542617505283" duration="9187000" />
+      <workItem from="1542617505283" duration="9859000" />
+      <workItem from="1542718115645" duration="5125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153004000" />
+    <option name="totallyTimeSpent" value="158801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,10 +701,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="610" y="0" width="1317" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22100656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3945903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -788,7 +713,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.347207" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -893,27 +818,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koty-application/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koty-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/Interfejs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.9.RELEASE/spring-aop-5.0.9.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -952,66 +853,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/09df6b8e-6ac9-4f8c-80ad-6071a79c17a7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dao/KotRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dto/KotDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-application/src/main/java/pl/kobietydokodu/bazakotow/dao/KotDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-domain/src/main/java/pl/kobietydokodu/bazakotow/model/Kot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/resources/templates/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/resources/templates/catDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1025,10 +870,175 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/koty-domain/src/main/java/pl/kobietydokodu/bazakotow/model/Kot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/resources/templates/catDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/koty-webapp/src/main/java/pl/kobietydokodu/service/KotyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="137">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/09df6b8e-6ac9-4f8c-80ad-6071a79c17a7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dao/CatDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dao/CatRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/dto/CatDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-application/src/main/java/pl/kobietydokodu/catsdatabase/Interfejs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1930">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-domain/src/main/java/pl/kobietydokodu/catsdatabase/model/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/newCat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/static/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/service/CatsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/java/pl/kobietydokodu/cats/CatsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1089,7 +1099,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BazaKotow</last-edited>
+          <last-edited>koty-domain</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

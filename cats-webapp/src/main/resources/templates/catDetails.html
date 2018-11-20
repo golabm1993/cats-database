@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Details</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="all"
+          href="../../css/gtvg.css" th:href="@{/css/gtvg.css}"/>
+</head>
+
+<body>
+
+<h1>Details:</h1><br>
+<p th:text="'Name: ' + ${cat.getName()}"></p>
+<p th:text="'Data of birth: ' + ${cat.getDateOfBirth()}"></p>
+<p th:text="'Weight: ' + ${cat.getWeight()}"></p>
+<p th:text="'Keeper: ' + ${cat.getKeeper()}"></p>
+
+</body>
+
+</html>
