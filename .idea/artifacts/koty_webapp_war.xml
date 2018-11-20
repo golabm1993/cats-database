@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="koty-webapp:war">
+    <output-path>$PROJECT_DIR$/koty-webapp/target</output-path>
+    <root id="archive" name="koty-webapp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="koty-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
