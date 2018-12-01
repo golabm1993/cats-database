@@ -1,9 +1,8 @@
 package pl.kobietydokodu.catsdatabase.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Cat {
@@ -15,11 +14,27 @@ public class Cat {
     private Float weight;
     private String keeper;
 
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "cat", orphanRemoval = true)
+    private List<Toy> toys;
+
+    public List<Toy> getToys() {
+        return toys;
+    }
+
+    public void addToy(Toy toy) {
+        toys.add(toy);
+    }
+
+    public void setToys(List<Toy> toys) {
+        this.toys = toys;
+    }
+
     public Cat(String name, String dateOfBirth, Float weight, String keeper) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
         this.weight = weight;
         this.keeper = keeper;
+        toys = new ArrayList<>();
     }
 
     public Integer getId() {

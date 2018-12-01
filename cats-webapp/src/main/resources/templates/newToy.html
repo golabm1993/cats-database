@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>New Toy</title>
+</head>
+<body>
+<h1>Toy data:</h1><br>
+<form action="#" th:action="@{/newToy/} + ${catId}" th:object="${toy}" method="post">
+    <p>Name: <input type="text" th:field="*{name}"/></p>
+    <p>Amount: <input type="text" th:field="*{amount}"/></p><br>
+    <button type="submit">Save</button>
+</form>
+</body>
+</html>
