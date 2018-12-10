@@ -62,23 +62,16 @@
             <version>2.23.0</version>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.5.RELEASE</version>
+        <relativePath/>
     </parent>
 
     <modules>
-        <module>cats-application</module>
         <module>cats-domain</module>
         <module>cats-webapp</module>
+        <module>cats-application</module>
     </modules>
 </project>

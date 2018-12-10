@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>pl.kobietydokodu.catsdatabase</groupId>
     <artifactId>cats-domain</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
 
 </project>
