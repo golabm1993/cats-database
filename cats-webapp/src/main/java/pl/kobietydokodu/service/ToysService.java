@@ -26,11 +26,11 @@ public class ToysService {
         this.catRepository = catRepository;
     }
 
-    public Toy createNewToy(@Valid ToyDTO toyDTO, String catId) {
-        Optional<Cat> cat = catRepository.findById(Integer.valueOf(catId));
+    public ToyDTO createNewToy(@Valid ToyDTO toyDTO, String catId) {
         Toy toy = toyDTO.toEntity();
-        toy.setCat(cat.get());
-        return toyRepository.save(toy);
+        Toy savedToy = toyRepository.save(toy);
+        ToyDTO savedToyDTO = toyDTO.fromEntity(savedToy);
+        return savedToyDTO;
     }
 
     public List<Toy> getAllToys() {

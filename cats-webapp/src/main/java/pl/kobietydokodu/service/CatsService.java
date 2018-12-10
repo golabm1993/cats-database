@@ -7,6 +7,8 @@ import pl.kobietydokodu.catsdatabase.dto.CatDTO;
 import pl.kobietydokodu.catsdatabase.model.Cat;
 
 import javax.validation.Valid;
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CatsService {
@@ -18,25 +20,22 @@ public class CatsService {
         this.catRepository = catRepository;
     }
 
-    public Cat createNewCat(@Valid CatDTO catDTO) {
-        return catRepository.save(CatDTOToCat(catDTO));
+    public CatDTO createNewCat(@Valid CatDTO catDTO) {
+        Cat cat = catDTO.toEntity();
+        Cat savedCat = catRepository.save(cat);
+        CatDTO savedCatDTO = catDTO.fromEntity(savedCat);
+        return savedCatDTO;
     }
 
-    public Iterable<Cat> getAllCats() {
-        return catRepository.findAll();
+    public List<Cat> getAllCats() {
+        return (List<Cat>) catRepository.findAll();
     }
 
     public Cat getCat(String id) {
-
-        return catRepository.findById(Integer.parseInt(id)).get();
-    }
-
-    private Cat CatDTOToCat(CatDTO catDTO) {
-        Cat cat = new Cat();
-        cat.setName(catDTO.getName());
-        cat.setDateOfBirth(catDTO.getDateOfBirth());
-        cat.setWeight(catDTO.getWeight());
-        cat.setKeeper(catDTO.getKeeper());
-        return cat;
+        Optional<Cat> cat = catRepository.findById(Integer.valueOf(id));
+        if(cat.isPresent()) {
+            return cat.get();
+        }
+        return null;
     }
 }

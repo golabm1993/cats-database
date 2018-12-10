@@ -56,4 +56,11 @@ public class ToyDTO {
         toy.setAmount(amount);
         return toy;
     }
+
+    public ToyDTO fromEntity(Toy toy) {
+        ToyDTO toyDTO = new ToyDTO();
+        toyDTO.setName(toy.getName());
+        toyDTO.setAmount(toy.getAmount());
+        return toyDTO;
+    }
 }
