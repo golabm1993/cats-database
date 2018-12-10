@@ -66,21 +66,29 @@ public class CatsServiceTest {
 
     @Test
     public void shouldReturnACat() {
+
+        // given
         Cat cat = new Cat();
         cat.setId(3);
         Mockito.when(catRepository.findById(3)).thenReturn(Optional.ofNullable(cat));
 
+        // when
         Cat cat1 = catsService.getCat(String.valueOf(3));
 
+        // then
         Assert.assertEquals(cat1, cat);
     }
 
     @Test
     public void shouldReturnNull() {
-//        Cat cat = new Cat();
-//        cat.setId(3);
-//        Mockito.when(catRepository.findById(3)).thenReturn(Optional.ofNullable(cat));
-        Cat cat1 = catsService.getCat(String.valueOf(2));
+
+        // given
+        Mockito.when(catRepository.findById(3)).thenReturn(Optional.empty());
+
+        // when
+        Cat cat1 = catsService.getCat(String.valueOf(3));
+
+        // then
         Assert.assertNull(cat1);
     }
 }

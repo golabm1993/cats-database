@@ -1,10 +1,8 @@
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import pl.kobietydokodu.catsdatabase.dao.CatRepository;
 import pl.kobietydokodu.catsdatabase.dao.ToyRepository;
-import pl.kobietydokodu.catsdatabase.dto.CatDTO;
 import pl.kobietydokodu.catsdatabase.dto.ToyDTO;
 import pl.kobietydokodu.catsdatabase.model.Cat;
 import pl.kobietydokodu.catsdatabase.model.Toy;
@@ -13,7 +11,13 @@ import pl.kobietydokodu.service.ToysService;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
+
+import static java.lang.String.valueOf;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 public class ToysServiceTest {
 
@@ -34,14 +38,13 @@ public class ToysServiceTest {
     @Test
     public void shouldSaveToy() {
 
+        // given
         Cat cat = new Cat();
         cat.setName("CatName");
         cat.setDateOfBirth("11.11.2018");
-//        cat.setWeight(1.0f);
         cat.setKeeper("CatKeeper");
         cat.setId(1);
 
-        // given
         ToyDTO toyDTO = new ToyDTO();
         toyDTO.setName("ToyName");
         toyDTO.setAmount(1);
@@ -50,14 +53,14 @@ public class ToysServiceTest {
         toy.setName("ToyName");
         toy.setAmount(1);
 
-        Mockito.when(toyRepository.save(Mockito.any())).thenReturn(toy);
+        when(toyRepository.save(any())).thenReturn(toy);
 
         // when
-        ToyDTO toyDTO1 = toysService.createNewToy(toyDTO, String.valueOf(cat.getId()));
+        ToyDTO toyDTO1 = toysService.createNewToy(toyDTO, valueOf(cat.getId()));
 
         // then
-        Assert.assertEquals(toyDTO1.getName(), "ToyName");
-        Assert.assertSame(toyDTO1.getAmount(), 1);
+        assertEquals(toyDTO1.getName(), "ToyName");
+        assertSame(toyDTO1.getAmount(), 1);
     }
 
     @Test
@@ -65,56 +68,24 @@ public class ToysServiceTest {
 
         // given
         Iterable<Toy> listOfToys = Arrays.asList(new Toy(), new Toy(), new Toy());
-        Mockito.when(toyRepository.findAll()).thenReturn(listOfToys);
+        when(toyRepository.findAll()).thenReturn(listOfToys);
 
         // when
         List<Toy> result = toysService.getAllToys();
 
         // then
-        Assert.assertEquals(result.size(), 3);
+        assertEquals(result.size(), 3);
     }
 
-//    @Test
-//    public void shouldDeleteToy() {
-//
-//        // given
-//        CatDTO catDTO1 = new CatDTO();
-//        catDTO1.setName("CatName");
-//        catDTO1.setDateOfBirth("11.11.2018");
-////        catDTO1.setWeight(1.0f);
-//        catDTO1.setKeeper("CatKeeper");
-//
-//        Cat cat = new Cat();
-//        cat.setId(1);
-//        cat.setName("CatName");
-//        cat.setDateOfBirth("11.11.2018");
-////        cat.setWeight(1.0f);
-//        cat.setKeeper("CatKeeper");
-//
-//        Mockito.when(catRepository.save(Mockito.any())).thenReturn(cat);
-//        catsService.createNewCat(catDTO1);
-//
-//        Toy toy = new Toy();
-//        toy.setId(cat.getId());
-//        toy.setName("ToyName");
-//        toy.setAmount(1);
-//        toy.setCat(cat);
-//        ToyDTO toyDTO = new ToyDTO();
-//        toyDTO.setId(5);
-//        toyDTO.setName("ToyName");
-//        toyDTO.setAmount(1);
-//        toyDTO.setCat(cat);
-//
-//        Mockito.when(toyRepository.save(Mockito.any())).thenReturn(toy);
-//        toysService.createNewToy(toyDTO, String.valueOf(cat.getId()));
-//
-//        // when
-////        toysService.deleteToy(String.valueOf(5));
-//
-//        System.out.println(toyRepository.count());
-//        System.out.println(toysService.getAllToys().size());
-//
-//        // then
-//        Assert.assertEquals(toyRepository.findById(5), Optional.empty());
-//    }
+    @Test
+    public void shouldDeleteToy() {
+        // given
+        String value = "2";
+
+        // when
+        toysService.deleteToy(value);
+
+        // then
+        verify(toyRepository).deleteById(2);
+    }
 }
