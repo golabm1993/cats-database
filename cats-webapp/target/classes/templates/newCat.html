@@ -7,10 +7,10 @@
 <body>
 <h1>Cat data:</h1><br>
 <form action="#" th:action="@{/newCat}" th:object="${cat}" method="post">
-    <p>Name: <input type="text" th:field="*{name}" /></p>
-    <p>Data of birth: <input type="date" th:field="*{dateOfBirth}" /></p>
-    <p>Weight: <input type="text" th:field="*{weight}" /></p>
-    <p>Keeper: <input type="text" th:field="*{keeper}" /></p>
+    <p>Name: <input type="text" th:field="*{name}"/></p>
+    <p>Data of birth: <input type="date" th:field="*{dateOfBirth}"/></p>
+    <p>Weight: <input type="text" th:field="*{weight}"/></p>
+    <p>Keeper: <input type="text" th:field="*{keeper}"/></p>
     <button type="submit" onclick="location.href='/'">Save</button>
 </form>
 

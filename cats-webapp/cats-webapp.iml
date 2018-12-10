@@ -25,7 +25,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.0.RELEASE" level="project" />
     <orderEntry type="module" module-name="cats-application" />
     <orderEntry type="module" module-name="cats-domain" />
     <orderEntry type="library" name="Maven: com.oracle:ojdbc14:10.2.0.4.0" level="project" />

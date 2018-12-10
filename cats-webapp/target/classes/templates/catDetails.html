@@ -5,9 +5,9 @@
 
 <head>
     <title>Details</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" media="all"
-          href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" />
+          href="../../css/gtvg.css" th:href="@{/css/gtvg.css}"/>
 </head>
 
 <body>
@@ -16,8 +16,22 @@
 <p th:text="'Name: ' + ${cat.getName()}"></p>
 <p th:text="'Data of birth: ' + ${cat.getDateOfBirth()}"></p>
 <p th:text="'Weight: ' + ${cat.getWeight()}"></p>
-<p th:text="'Keeper: ' + ${cat.getKeeper()}"></p>
+<p th:text="'Keeper: ' + ${cat.getKeeper()}"></p><br>
+<h3>List of toys:</h3><br>
+<ul th:each="toy: ${toys}">
+    <li>
+        <p th:text="'Name: ' + ${toy.getName()}"></p><br>
+        <p th:text="'Amount: ' + ${toy.getAmount()}"></p>
+        <form th:with="id=${#strings.toString(toy.getId())}" action="#" th:action="@{/catDetails/} + ${id}" th:method="delete">
+            <button type="submit">
+            Delete</button>
+        </form>
 
+    </li>
+</ul>
+<button th:with="id=${#strings.toString(cat.getId())}"
+        th:onclick="'window.location.href = \'' + @{/newToy/} + ${id} + '\''">New toy
+</button>
 </body>
 
 </html>
