@@ -6,8 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be1dfc78-26fb-4eb7-a615-64cd9ebaa5e1" name="Default Changelist" comment="gitignore idea test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="be1dfc78-26fb-4eb7-a615-64cd9ebaa5e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -189,6 +189,7 @@
           <entry key="properties" value="1" />
           <entry key="sql" value="3" />
           <entry key="toy" value="6" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="26" />
         </counts>
       </usages-collector>
@@ -200,6 +201,7 @@
           <entry key="Git file" value="3" />
           <entry key="HTML" value="27" />
           <entry key="JAVA" value="145" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="3" />
           <entry key="XML" value="26" />
@@ -208,7 +210,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="gitignore" value="73" />
+          <entry key="gitignore" value="133" />
           <entry key="html" value="798" />
           <entry key="java" value="4980" />
           <entry key="sql" value="88" />
@@ -218,7 +220,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="73" />
+          <entry key="Git file" value="133" />
           <entry key="HTML" value="798" />
           <entry key="JAVA" value="4980" />
           <entry key="PLAIN_TEXT" value="241" />
@@ -305,11 +307,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            <state relative-caret-position="318">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -637,7 +648,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544472663338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544472714864" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -978,7 +989,7 @@
       <workItem from="1543826510455" duration="11470000" />
       <workItem from="1543912220293" duration="12613000" />
       <workItem from="1544176578280" duration="599000" />
-      <workItem from="1544435907888" duration="16381000" />
+      <workItem from="1544435907888" duration="16623000" />
     </task>
     <task id="LOCAL-00001" summary="New file and variable names">
       <created>1542750446265</created>
@@ -1029,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544471948547</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="gitignore idea test">
+      <created>1544472701964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544472701964</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1065,7 +1083,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258038000" />
+    <option name="totallyTimeSpent" value="258280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1215,7 +1233,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java" />
     <entry file="file://$PROJECT_DIR$/koty-webapp/WEB-INF/views/glowny.jsp" />
     <entry file="file://$PROJECT_DIR$/koty-webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/koty-webapp/WEB-INF/applicationContext.xml" />
@@ -1487,8 +1504,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        <state relative-caret-position="318">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
