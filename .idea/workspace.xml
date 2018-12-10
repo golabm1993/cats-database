@@ -6,26 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be1dfc78-26fb-4eb7-a615-64cd9ebaa5e1" name="Default Changelist" comment="Toys CRUD">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/09df6b8e-6ac9-4f8c-80ad-6071a79c17a7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/09df6b8e-6ac9-4f8c-80ad-6071a79c17a7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+    <list default="true" id="be1dfc78-26fb-4eb7-a615-64cd9ebaa5e1" name="Default Changelist" comment="gitignore idea test">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatsDatabase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatsDatabase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/dao/CatDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/dao/CatDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/dto/CatDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-application/target/classes/pl/kobietydokodu/catsdatabase/dto/CatDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-domain/target/classes/pl/kobietydokodu/catsdatabase/model/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-domain/target/classes/pl/kobietydokodu/catsdatabase/model/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-webapp/cats-webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/cats-webapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-webapp/target/classes/pl/kobietydokodu/cats/CatsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/pl/kobietydokodu/cats/CatsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-webapp/target/classes/pl/kobietydokodu/service/CatsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/pl/kobietydokodu/service/CatsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-webapp/target/classes/templates/catDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/templates/catDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-webapp/target/classes/templates/newCat.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/templates/newCat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats-webapp/target/classes/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats-webapp/target/classes/templates/welcome.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -225,20 +208,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="gitignore" value="68" />
+          <entry key="gitignore" value="73" />
           <entry key="html" value="798" />
           <entry key="java" value="4980" />
           <entry key="sql" value="88" />
-          <entry key="txt" value="168" />
+          <entry key="txt" value="195" />
           <entry key="xml" value="266" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="68" />
+          <entry key="Git file" value="73" />
           <entry key="HTML" value="798" />
           <entry key="JAVA" value="4980" />
-          <entry key="PLAIN_TEXT" value="214" />
+          <entry key="PLAIN_TEXT" value="241" />
           <entry key="Scratch" value="88" />
           <entry key="XML" value="266" />
         </counts>
@@ -322,20 +305,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
-              <caret line="32" column="85" lean-forward="true" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -663,14 +637,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544471913475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544472663338" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.xslt" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -964,7 +938,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\G\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1004,7 +978,7 @@
       <workItem from="1543826510455" duration="11470000" />
       <workItem from="1543912220293" duration="12613000" />
       <workItem from="1544176578280" duration="599000" />
-      <workItem from="1544435907888" duration="15621000" />
+      <workItem from="1544435907888" duration="16381000" />
     </task>
     <task id="LOCAL-00001" summary="New file and variable names">
       <created>1542750446265</created>
@@ -1041,7 +1015,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544470887908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gitignore test">
+      <created>1544471787887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544471787887</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore idea test">
+      <created>1544471948547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544471948547</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1077,7 +1065,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257278000" />
+    <option name="totallyTimeSpent" value="258038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1204,7 +1192,9 @@
     <MESSAGE value="Added toEntity and fromEntity methods, corrected service files" />
     <MESSAGE value="Added service files tests" />
     <MESSAGE value="test fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="test fixes" />
+    <MESSAGE value="gitignore test" />
+    <MESSAGE value="gitignore idea test" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore idea test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1488,17 +1478,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="32" column="85" lean-forward="true" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cats-webapp/src/main/resources/templates/catDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
         </state>
       </provider>
     </entry>
