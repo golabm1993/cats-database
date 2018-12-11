@@ -17,6 +17,9 @@ public class Cat {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "cat", orphanRemoval = true)
     private List<Toy> toys;
 
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "cat", orphanRemoval = true)
+    private List<CatPhoto> photos;
+
     public List<Toy> getToys() {
         return toys;
     }

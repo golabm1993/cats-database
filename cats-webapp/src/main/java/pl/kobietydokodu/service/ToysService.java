@@ -5,12 +5,10 @@ import org.springframework.stereotype.Service;
 import pl.kobietydokodu.catsdatabase.dao.CatRepository;
 import pl.kobietydokodu.catsdatabase.dao.ToyRepository;
 import pl.kobietydokodu.catsdatabase.dto.ToyDTO;
-import pl.kobietydokodu.catsdatabase.model.Cat;
 import pl.kobietydokodu.catsdatabase.model.Toy;
 
 import javax.validation.Valid;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ToysService {
