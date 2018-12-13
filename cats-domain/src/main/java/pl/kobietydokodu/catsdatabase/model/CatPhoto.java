@@ -13,16 +13,11 @@ public class CatPhoto {
 
     private String databasePhotoName;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "cat_id")
-    private Cat cat;
+    private Cat catId;
 
     public CatPhoto() {}
-
-    public CatPhoto(String originalPhotoName, Cat cat) {
-        this.originalPhotoName = originalPhotoName;
-        this.cat = cat;
-    }
 
     public Integer getId() {
         return id;
@@ -49,10 +44,10 @@ public class CatPhoto {
     }
 
     public Cat getCat() {
-        return cat;
+        return catId;
     }
 
     public void setCat(Cat cat) {
-        this.cat = cat;
+        this.catId = cat;
     }
 }

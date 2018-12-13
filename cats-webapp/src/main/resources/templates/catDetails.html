@@ -33,6 +33,13 @@
         th:onclick="'window.location.href = \'' + @{/newToy/} + ${id} + '\''">New toy
 </button><br>
 
+<h3>List of photos:</h3><br>
+<ul th:each="catPhoto: ${photos}">
+    <li>
+        <img alt="image" th:src="@{'C:\Users\G\Documents\CatsDatabase\cats-webapp\src\main\resources\temp\{img}'(img=${catPhoto.getDatabasePhotoName()} + '.jpg')}">
+    </li>
+</ul>
+
 <form method="POST" th:with="id=${#strings.toString(cat.getId())}" enctype="multipart/form-data" th:action="@{/upload/} + ${id}">
     <table>
         <tr><td>File to upload:</td><td><input type="file" name="file" /></td></tr>

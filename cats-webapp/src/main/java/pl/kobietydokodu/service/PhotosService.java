@@ -19,8 +19,7 @@ import java.util.Optional;
 @Service
 public class PhotosService {
 
-    private static String UPLOADED_FOLDER = "C:\\dev\\webProject\\BazaKotow\\koty-webapp\\src\\main\\resources\\";
-    private static String SAVING_FOLDER = "C:\\dev\\webProject\\BazaKotow\\koty-webapp\\src\\main\\resources\\temp\\";
+    private static String SAVING_FOLDER = "C:\\Users\\G\\Documents\\CatsDatabase\\cats-webapp\\src\\main\\resources\\temp\\";
 
     private final PhotoRepository photoRepository;
 
@@ -34,8 +33,6 @@ public class PhotosService {
 
     public CatPhoto save(MultipartFile file, String catId) {
 
-        byte[] bytes = new byte[0];
-
         String databasePhotoName = null;
         databasePhotoName = saveToFile(file, databasePhotoName);
         CatPhoto savedPhoto = photoRepository.save(createCatPhoto(file.getOriginalFilename(), Integer.valueOf(catId), databasePhotoName));
@@ -47,8 +44,6 @@ public class PhotosService {
         try {
 
             bytes = file.getBytes();
-
-            Path path = Paths.get(UPLOADED_FOLDER + file.getOriginalFilename());
             databasePhotoName = String.valueOf(new Date().getTime());
             Path path1 = Paths.get(SAVING_FOLDER + databasePhotoName + ".jpg");
 
@@ -62,6 +57,10 @@ public class PhotosService {
 
     public List<CatPhoto> getAllPhotos() {
         return (List<CatPhoto>) photoRepository.findAll();
+    }
+
+    public CatPhoto getPhoto(Long catId) {
+          return photoRepository.findCatPhotoByCatId(catId);
     }
 
     private CatPhoto createCatPhoto(String fileName, Integer catId, String databasePhotoName) {

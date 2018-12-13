@@ -17,11 +17,19 @@ public class Cat {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "cat", orphanRemoval = true)
     private List<Toy> toys;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "cat", orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "catId", orphanRemoval = true)
     private List<CatPhoto> photos;
 
     public List<Toy> getToys() {
         return toys;
+    }
+
+    public List<CatPhoto> getPhotos() {
+        return photos;
+    }
+
+    public void setPhotos(List<CatPhoto> photos) {
+        this.photos = photos;
     }
 
     public void addToy(Toy toy) {

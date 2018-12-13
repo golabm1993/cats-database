@@ -34,10 +34,6 @@ public class Toy {
         this.id = cat.getId();
     }
 
-    public Integer getCatId() {
-        return cat.getId();
-    }
-
     public Integer getId() {
         return id;
     }
